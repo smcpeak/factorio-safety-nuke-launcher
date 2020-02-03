@@ -61,7 +61,8 @@ safety_nuke_launcher_item.attack_parameters.min_range =
   settings.startup["safety-nuke-launcher-min-range"].value;
 safety_nuke_launcher_item.order = vanilla_rocket_launcher.order .. "-safety";
 safety_nuke_launcher_item.icon = 
-  "__SafetyNukeLauncher__/graphics/icons/safety-nuke-launcher-item.png",
+  "__SafetyNukeLauncher__/graphics/icons/safety-nuke-launcher-item.png";
+safety_nuke_launcher_item.icon_size = 32;
 
 data:extend{
   safety_nuke_launcher_technology,
