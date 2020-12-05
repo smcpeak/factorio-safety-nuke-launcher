@@ -70,4 +70,10 @@ data:extend{
   safety_nuke_launcher_item,
 };
 
+if (settings.startup["safety-nuke-launcher-range-bonus"].value) then
+  -- Nuclear rocket will have three times the range of a non-nuclear
+  -- rocket, as it did before the 1.0 update.
+  data.raw.ammo["atomic-bomb"].ammo_type.range_modifier = 3;
+end;
+
 -- EOF

@@ -3,6 +3,9 @@ Version: 0.3.0
 Date: 04.12.2020
   Compatibility:
     - Update to be compatible with Factorio 1.1.
+  Balance:
+    - Provide an option (defaults to off) to increase nuclear rocket range back to pre-1.0 300%.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 02.02.2020
   Compatibility:

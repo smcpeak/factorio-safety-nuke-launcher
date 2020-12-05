@@ -14,6 +14,14 @@ data:extend({
     minimum_value = 1,
     maximum_value = 100,
   },
+
+  -- Option to increase nuclear rocket range.
+  {
+    type = "bool-setting",
+    name = "safety-nuke-launcher-range-bonus",
+    setting_type = "startup",
+    default_value = false,
+  },
 });
 
 -- EOF
