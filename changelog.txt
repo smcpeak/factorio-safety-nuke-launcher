@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 04.12.2020
+  Compatibility:
+    - Update to be compatible with Factorio 1.1.
 Version: 0.2.0
 Date: 02.02.2020
   Compatibility:
