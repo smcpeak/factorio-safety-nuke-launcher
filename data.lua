@@ -41,17 +41,33 @@ local safety_nuke_launcher_technology = {
 -- Original launcher, for easy reference.
 local vanilla_rocket_launcher = data.raw.gun["rocket-launcher"];
 
--- Recipe to make the safety launcher.
+-- Recipe to make the safety launcher item.
 local safety_nuke_launcher_recipe = {
   type = "recipe",
   name = "safety-nuke-launcher-recipe",
   enabled = false,
   energy_required = 2,                 -- 2 seconds to build.
   ingredients = {
-    {vanilla_rocket_launcher.name, 1},
-    {"electronic-circuit", 1},         -- Green circuit because green means safety!
+    -- Start with a normal rocket launcher.
+    {
+      amount = 1,
+      name = vanilla_rocket_launcher.name,
+      type = "item"
+    },
+    -- Add a green circuit because green means safety!
+    {
+      amount = 1,
+      name = "electronic-circuit",
+      type = "item"
+    },
   },
-  result = "safety-nuke-launcher-item",
+  results = {
+    {
+      amount = 1,
+      name = "safety-nuke-launcher-item",
+      type = "item"
+    }
+  },
 };
 
 -- Launcher is like the vanilla one but has a minimum range.
@@ -60,7 +76,7 @@ safety_nuke_launcher_item.name = "safety-nuke-launcher-item";
 safety_nuke_launcher_item.attack_parameters.min_range =
   settings.startup["safety-nuke-launcher-min-range"].value;
 safety_nuke_launcher_item.order = vanilla_rocket_launcher.order .. "-safety";
-safety_nuke_launcher_item.icon = 
+safety_nuke_launcher_item.icon =
   "__SafetyNukeLauncher__/graphics/icons/safety-nuke-launcher-item.png";
 safety_nuke_launcher_item.icon_size = 32;
 

@@ -1,10 +1,10 @@
 {
     "name": "SafetyNukeLauncher",
-    "version": "0.3.0",
+    "version": "2.0.0",
     "title": "Safety Nuke Launcher",
     "author": "Scott McPeak",
     "homepage": "https://github.com/smcpeak/factorio-safety-nuke-launcher",
-    "factorio_version": "1.1",
-    "dependencies": ["base >= 1.1"],
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0"],
     "description": "Provides a rocket launcher with minimum range to reduce likelihood of accidentally nuking yourself!  Also optionally increases maximum nuclear rocket range."
 }
