@@ -10,8 +10,8 @@ I made this mod after doing it to myself one too many times...
 Additionally, this mod has an option (default off) to set the nuclear
 rocket range bonus to 300% (regardless of launcher used).  More below.
 
-Installation
-============
+Manual Installation
+===================
 Copy the release zip file (SafetyNukeLauncher_X.Y.Z.zip) into the "mods" subfolder
 of the [User Data Directory](https://wiki.factorio.com/Application_directory#User_Data_directory).
 Then start (or restart) Factorio.  It should then appear in the Mods
@@ -52,6 +52,22 @@ even acknowledge this change, so it is possible this wasn't even an
 intentional change by the developers.  If it was intentional, it is an
 odd choice since nuclear rockets were already arguably underpowered in
 comparison to both artillery and turret creeping.
+
+Adjusting Startup Settings
+==========================
+The two startup settings, minimum range and range bonus, can be safely
+changed for a save game file that already has the mod active.  If you
+have the mod active in a game, then change one of these settings from
+the main menu, then when Factorio prompts to "Sync mods and load" or
+just "Load", choose "Load".  That way the new settings take effect.
+(The other option reverts the settings to what is stored in the save
+file.)
+
+Uninstallation
+==============
+If you have a save with the mod active, then disable the mod and load
+the save, the new item (the launcher with minimum radius) will be
+removed.  There are no other adverse effects.
 
 Links
 =====
