@@ -1,22 +1,27 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2026-11-12
+  Compatibility:
+    - Update to be compatible with Factorio 2.1.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
-Date: 28.11.2024
+Date: 2024-11-28
   Compatibility:
     - Update to be compatible with Factorio 2.0.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
-Date: 04.12.2020
+Date: 2020-12-04
   Compatibility:
     - Update to be compatible with Factorio 1.1.
   Balance:
     - Provide an option (defaults to off) to increase nuclear rocket range back to pre-1.0 300%.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
-Date: 02.02.2020
+Date: 2020-02-02
   Compatibility:
     - Update to be compatible with Factorio 0.18.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: 20.04.2019
+Date: 2019-04-20
   Major Features:
     - Rocket launcher with configurable minimum range.
